@@ -1,0 +1,20 @@
+{
+  "name": "contract-diff-analyzer",
+  "version": "1.0.0",
+  "description": "Compare smart contract versions and highlight changes",
+  "main": "src/diff.js",
+  "bin": {
+    "contract-diff": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "keywords": ["solidity", "diff", "analyzer", "contract", "security"],
+  "author": "bossmanfm",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "diff": "^5.1.0"
+  }
+}
